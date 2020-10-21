@@ -1,6 +1,6 @@
 public class StringExtensions
 {
-    public static string URLify(char[] str)
+    public static string URLify(this char[] str)
     {
         const char Whitespace = ' ';
         var spaces = 0;
